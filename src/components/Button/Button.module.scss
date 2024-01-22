@@ -1,1 +1,24 @@
+@import "../../saas/main.scss";
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 45px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 30px;
+}
+
+.white {
+  color: $mainBlack;
+  background-color: $btnWhite;
+}
+
+.green {
+  color: $btnWhite;
+  border: 1px solid rgba(252, 252, 252, 0.4);
+}
