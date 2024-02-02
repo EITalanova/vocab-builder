@@ -3,7 +3,7 @@ import cn from "classnames";
 import style from "./Button.module.scss";
 
 interface IButton {
-  variant: 'white' | 'green';
+  variant: 'white' | 'green' | 'transparent';
   text: string;
   type: 'submit' | 'button';
 }
