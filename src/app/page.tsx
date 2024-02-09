@@ -6,7 +6,7 @@ import { Button } from '@/components/Button/Button'
 export default function Home() {
   return (
     <main className={styles.main}>
-     <Button variant='transparent' text='ififif' type='button'/>
+     <Button variant='transparent' text='text' type='button'/>
     </main>
   )
 }
