@@ -15,7 +15,7 @@ export const Logo: React.FC<ILogo> = () => {
     <div>
       <Link href="/">
         <Image
-          src={"../../assets/svg/logo.svg"}
+          src="/assets/svg/logo.svg"
           alt="logo"
           width={40}
           height={40}
